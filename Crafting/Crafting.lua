@@ -134,7 +134,8 @@ local function attach()
     end
 
     local launcher = makeTab("WhatsTrainingCraftingTab")
-    launcher.Icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
+    launcher.Icon:SetTexture(wt.addonIcon())
+    wt.onAddonIconChanged(function(texture) launcher.Icon:SetTexture(texture) end)
     launcher.tooltipText = wt.L.TAB_TEXT
     local width, height = launcher:GetSize()
     local iconOffsets = launcher.GetFinalIconAnchorOffsets

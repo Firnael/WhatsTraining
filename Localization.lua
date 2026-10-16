@@ -179,6 +179,13 @@ local localeText = {
         FACTION_2747 = "Barkskin Burrow",
         FACTION_2758 = "Nightclaw Druids",
         FACTION_2787 = "Earthen Ring",
+
+        -- addon icon
+        ADDON_ICON_TITLE = "Addon icon:",
+        ADDON_ICON_QUESTION_MARK = "Question Mark",
+        ADDON_ICON_TOME = "Tome",
+        ADDON_ICON_SPELLBOOK = "Spellbook",
+        ADDON_ICON_SCROLL = "Scroll",
     },
     frFR = {
         AVAILABLE_HEADER = "Disponible",
@@ -305,6 +312,13 @@ local localeText = {
         FACTION_2747 = "Terrier des Peau-d’écorce",
         FACTION_2758 = "Druides et druidesses de la Noctegriffe",
         FACTION_2787 = "Cercle terrestre",
+
+        -- addon icon
+        ADDON_ICON_TITLE = "Icône de l'addon :",
+        ADDON_ICON_QUESTION_MARK = "Point d'interrogation",
+        ADDON_ICON_TOME = "Tome",
+        ADDON_ICON_SPELLBOOK = "Grimoire",
+        ADDON_ICON_SCROLL = "Parchemin",
     },
     ruRU = {
         AVAILABLE_HEADER = "Доступно сейчас",
